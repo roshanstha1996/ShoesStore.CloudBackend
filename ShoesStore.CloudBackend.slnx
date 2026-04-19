@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="ShoesStore.API/ShoesStore.API.csproj" Id="961b856f-9681-4fc6-b38a-60760e855486" />
+    <Project Path="ShoesStore.API/ShoesStore.API.csproj" Id="961ffc46-663c-4adc-879c-69c226aa55d6" />
     <Project Path="ShoesStore.Application/ShoesStore.Application.csproj" Id="eabca7f2-c79b-4765-b258-aa1d0242a8bd" />
     <Project Path="ShoesStore.Domain/ShoesStore.Domain.csproj" Id="1c965ded-9511-4c33-ac3a-f0a3b06bac7c" />
     <Project Path="ShoesStore.Infrastructure/ShoesStore.Infrastructure.csproj" Id="1e88024d-29b8-456c-a0e0-845bcfbff086" />

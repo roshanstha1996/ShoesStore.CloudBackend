@@ -1,4 +1,4 @@
-@ShoesStore.API_HostAddress = http://localhost:5073
+@ShoesStore.API_HostAddress = http://localhost:5146
 
 GET {{ShoesStore.API_HostAddress}}/weatherforecast/
 Accept: application/json
