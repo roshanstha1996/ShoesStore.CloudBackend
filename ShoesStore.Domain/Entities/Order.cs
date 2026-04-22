@@ -2,10 +2,10 @@
 
 namespace ShoesStore.Domain.Entities;
 
-public class OrderItem : BaseEntity
+public class Order : BaseEntity
 {
-    public int ProductId { get; set; }
-    public int Quantity { get; set; }
-    public decimal Price { get; set; }
-    public Product Product { get; set; } = null!;
+    public int UserId { get; set; }
+    public decimal TotalAmount { get; set; }
+
+    public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 }

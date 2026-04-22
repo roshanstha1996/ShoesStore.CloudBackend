@@ -2,10 +2,11 @@
 
 namespace ShoesStore.Domain.Entities;
 
-public class User : BaseEntity
+public class OrderItem : BaseEntity
 {
-    public string Email { get; set; } = string.Empty;
-    public string PasswordHash { get; set; } = string.Empty;
+    public int ProductId { get; set; }
+    public int Quantity { get; set; }
+    public decimal Price { get; set; }
 
-    public string Role { get; set; } = "Customer";
+    public Product Product { get; set; } = null!;
 }
